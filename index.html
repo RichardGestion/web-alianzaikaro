@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>R.S Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>ALIANZA IKARO</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE IKARO</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">GESTIÓN</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="/indexCLIENTE.html" onclick="seleccionar(this)">CLIENTES</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/p/Alianza-Ikaro-100078649232322/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/alianzaikaro/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida"></p>
+                <h2>Somos un <span>HANDLING</span>, Certificado RAV-111</h2>
+                <p class="descripcion"> </p>
+                <a href="#sobremi">SOBRE ALIANZA IKARO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+     <!--SECCION SOBRE ALIANZA IKARO-->
+     <section id="sobremi">
+        <div class="contenedor-foto">
+          <img src="img/LSP 2 (2).jpg" alt="" />
+        </div>
+        <div class="sobremi">
+          <p style="text-align: justify;" class="titulo-seccion">
+            ALIANZA IKARO CUENTA CON DOS (2) HABILITACIONES;<br> 1) Equipos de Apoyo Terrestre en Plataforma. <br> 2)Operador de Base Fija.
+          </p>
+          <h2 style="text-align: justify;">ALIANZA IKARO Brinda Servicios en los Siguientes Aeropuertos: <br> <span> Maiquetía, las Piedras, <br> el Vigía, San Antonio.</span></h2>
+          <h3>MISIÓN DE ALIANZA IKARO</h3>
+          <p style="text-align: justify;">
+              Prestar a nuestros clientes un servicio de transporte aéreo comercial de pasajeros y carga, ofreciendo una experiencia de vuelo nacional e internacional con calidad, seguridad y puntualidad que contribuya con el desarrollo social y turístico del país.
+          </p>
+          <h3>VISIÓN DE ALIANZA IKARO</h3>
+          <p style="text-align: justify;">
+              Consolidarnos como la mejor aerolínea de Venezuela hacia todo el Caribe, ofreciendo vuelos comerciales con un servicio de excelente calidad, adaptándonos a la actualidad del mercado y cubriendo sus necesidades.
+          </p>
+          <a href="/CERTIFICADO CESEA.html">Certificado ESEA</a>
+
+        </div>
+      </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">SISTEMA DE GESTIÓN DE LA SEGURIDAD OPERACIONAL</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-regular fa-rectangle-list"></i></span>
+                <h4>Glosarios de Terminos SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/Definiciones.html">ENTER</a></li>
+                    
+                </ul>
+                <p>Encontraras una Listas de Conceptos Relacionados al SMS.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-book-open-reader"></i></span>
+                <h4>Reporte SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="https://respond.forms.app/smsalianzaikaro/sistemas-sms-ikaro">ENTER</a></li>
+                </ul>
+                <p>Sistema para Identificar Peligros y/o Sucesos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-fire-extinguisher"></i></span>
+                <h4>Plan de Emergencia Maiquetía</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/EMERGENCIAMIQ.html">ENTER</a></li>
+                </ul>
+                <p>Listado de Contactos, Rutagrama de Escape y Procedimientos de Emergencias.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-swatchbook"></i></span>
+                <h4>Gestion del Cambio</h4>
+                <ul class="servicios-tag">
+                    <li><a href="https://asg394rv.forms.app/sistemas-sms-ikaro-gestion-de-cambio">ENTER</a></li>
+                </ul>
+                <p>Sistema de Solicitud de Gestion del Cambio</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-folder-open"></i></span>
+                <h4>Boletines de SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="">ENTER</a></li>
+                </ul>
+                <p>Información Referente a las comunicaciones en materia de gestión de SMS.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <h4>Circulares Operacionales</h4>
+                <ul class="servicios-tag">
+                    <li><a href="">ENTER</a></li>
+                </ul>
+                <p>Información Referente a las normas de cumplimientos operacionales.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-swatchbook"></i></span>
+                <h4>Inspección de Equipos</h4>
+                <ul class="servicios-tag">
+                    <li><a href="">ENTER</a></li>
+                </ul>
+                <p>Sistema de verificación diaria de equipo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-folder-open"></i></span>
+                <h4>Taxonomia de Peligros</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/TAXONOMIA.html">ENTER</a></li>
+                </ul>
+                <p>Ejemplos de Peligros como orientación.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <h4>Cronogramas de Actividades</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/CRONOGRAMA SMS.html">ENTER</a></li>
+                </ul>
+                <p>Informacion referente a las auditorias, simulacros y talleres de SMS.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-swatchbook"></i></span>
+                <h4>Pland de Emergencia Las Piedras</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/EMERGENCIA LSP.html">ENTER</a></li>
+                </ul>
+                <p>Listado de Contactos, Rutagrama de Escape y Procedimientos de Emergencias.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-folder-open"></i></span>
+                <h4>Políticas y Objetivos de SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/POLITICAS.html">ENTER</a></li>
+                </ul>
+                <p>Informacion que muestra las Políticas y Objetivos de SMS.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <h4>Designaciones</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/DESIGNACIONES.html">ENTER</a></li>
+                </ul>
+                <p>Informacion que muestra las Designaciones en materia de SMS.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-swatchbook"></i></span>
+                <h4>Responsabilidades de SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/RESPONSABILIDADES.html">ENTER</a></li>
+                </ul>
+                <p>Información referente a las funciones en materia de SMS.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-folder-open"></i></span>
+                <h4>Trivia SMS</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/Juegodepreguntas.html">ENTER</a></li>
+                </ul>
+                <p>Pon aprueba tus conocimientos en materia de SMS.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <h4>Cronograma de Capacitación LSP</h4>
+                <ul class="servicios-tag">
+                    <li><a href="/CAPACITACION LSP.html">ENTER</a></li>
+                </ul>
+                <p>Información a la planificación y cumplimiento de los cursos regulatorios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>PROYECTO DE CERTIFICACION SMS (ESTATUS 2024)</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>(Componente I): Política y Objetivos de Seguridad Operacional</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>(Componente II): Gestion de Riesgos de Seguridad Operacional</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>(Componente III): Aseguramiento de la Seguridad Operacional</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>(Componente IV): Promoción de la Seguridad Operacional</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Actividades SMS 2024</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Revision de las Evidencias.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Apertura de Reunion INAC.</h4>
+                    <p>Proceso de Certificación SMS.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Revision del Cronograma de Implementacion.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Revision de las Evidencias (Hitos).</h4>
+                    <p>Proceso de Certificación SMS.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Revision de Cumplimiento del Cronograma de Actividades SMS.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Revisión de Cumplimiento Cronograma SMS.</h4>
+                    <p>Proceso de Certificación SMS.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Revision Teorica del Proceso SMS.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Revisión documental (Manual SMS, PISO y ERP).</h4>
+                    <p>Proceso de Certificación SMS.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Impartiendo las Politicas de SMS.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Impartiendo Política & Objetivos SMS.</h4>
+                    <p>Charlas SMS / Estación LSP.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="#portafolio"><img src="img0/Familiarizacion con el Simulacro en Mesa.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Simulacro de Emergencia en Mesa.</h4>
+                    <p>Familiarización / Estación LSP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/p/Alianza-Ikaro-100078649232322/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
