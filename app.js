@@ -70,7 +70,7 @@ const bd_juego = [
         op0:"3.",
         op1:"2.",
         op2:"1.",
-        correcta:"1"
+        correcta:"0"
     },
     {
         id:9,
